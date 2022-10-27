@@ -1,0 +1,10 @@
+grades = {"English" : 98, "Gym" : 78.09, "Art" : 87, "Math" : 90}
+print(grades, '\n')
+grades.update ({"Dutch" : 78.5})
+print("updated", grades, '\n')
+totalg = sum(grades.values())
+print("Number of scores: ", len(grades), '\n')
+print('Total score = ', round(totalg, 2), '\n')
+ascore = totalg / len(grades)
+print("average score is: ", '\n') 
+print(round(ascore, 2), '\n')
